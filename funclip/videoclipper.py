@@ -413,7 +413,7 @@ def get_parser():
         "--stage",
         type=int,
         choices=(1, 2),
-        help="Stage, 0 for recognizing and 1 for clipping",
+        help="Stage, 1 for recognizing and 2 for clipping",
         required=True
     )
     parser.add_argument(
